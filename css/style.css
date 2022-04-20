@@ -1,0 +1,93 @@
+body {
+    overflow-x: hidden;
+    font-family: Cambria;
+
+}
+
+nav {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+
+-bg-*{
+    background-color: transparent;
+}
+
+.landing {
+    width: 100%;
+    aspect-ratio: auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-image: url('../static/bg.jpg');
+    background-color: #fa7268;
+    /*background-image: linear-gradient(180deg, #d7ad55, #d76c55); */
+}
+
+.CN {
+    text-align: center;
+    text-shadow: -2px 2px black;
+    color: #8d3645;
+}
+
+.CN h1{
+    text-align: center;
+    text-shadow: -3px 4px black;
+    font-size: 200px;
+    color: #8d3645;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.CN h2{
+    display: inline-block;
+    margin: 50px;
+    margin-top: 15px;
+    text-align: center;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.containers {
+    width:50%;
+    text-align: center;
+    border: solid #8d3645;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-left: 25%;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:#00000e;
+    fill-opacity: 75%;
+    font-size: 20pt;
+}
+
+.footer {
+    margin-top: 50px;
+    width:100%;
+    border-top: solid white;
+    color: white;
+}
+
+#github {
+    margin-top: 2%;
+}
+
+img {
+    width: 100px;
+    filter: sepia(100%) drop-shadow(-2px 2px 2px rgb(133, 133, 133));
+    -webkit-filter: sepia(100%) drop-shadow(-2px 2px 2px rgb(133, 133, 133));
+    -moz-filter: sepia(100%) drop-shadow(-2px 2px 2px rgb(133, 133, 133));
+    margin: 2%;
+}
+
+img:hover{
+    border: solid white;
+    border-radius: 10px 10px;
+}
